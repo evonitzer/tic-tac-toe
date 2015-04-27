@@ -135,6 +135,7 @@ def isBoardFull(board):
             return False
     return True
 
+# Here is the game loop.
 print('Welcome to Tic Tac Toe!')
 while True:
     theBoard = [' '] * 10
